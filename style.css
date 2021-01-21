@@ -10,6 +10,11 @@ header > div{
     align-items:center;
     border-bottom:1px solid lightgray;
 }
+#search-bar{
+    background-color: rgba(232,217,217,.3);
+    display:flex;
+    align-content: center;
+}
 nav{
     width:600px;
 }
@@ -23,7 +28,7 @@ nav a{
     text-decoration:none;
     color:black;
 }
-.blackHeart{
+#blackHeart{
     width:20px;
     margin-right:1rem;
 }
@@ -35,7 +40,7 @@ form input{
     width:1100px;
     height:30px;
     border-style:none;
-    background-color: rgba(232,217,217,.3);
+    background-color: rgba(232,217,217,.0);
     text-indent: 5px;
 }
 form button{
@@ -43,21 +48,21 @@ form button{
     color:white;
     padding:5px 10px 5px 10px;
     border-style: none;
+    height:30px;
 }
-.sesion-links a{
+#sesion-links a{
     text-decoration:none;
     color:blue;
     margin-right: 10px;
 }
-.npm-logo{
+#npm-logo{
     width:60px;
 }
-.magnifying-glass{
-    width:40px;
+#magnifying-glass{
+    width:30px;
 }
-.header-div-2{
+#header-div-2{
     height:60px;
-    display:flex;
 }
 /*el justify-content:center queda horrible
 y el space-evenly me deja mucho espacio entre el h1 
