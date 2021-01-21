@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+header > div{
+    padding:0 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom:1px solid lightgray;
+}
+nav{
+    width:600px;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+}
+.blackHeart{
+    width:20px;
+    margin-right:1rem;
+}
+form label{
+    color:rgba(0,0,0,0.5);
+}
+form input{
+    color:rgba(0,0,0,0.5);
+    width:1200px;
+    height:30px;
+    border-style:none;
+    background-color: rgba(232,217,217,.3);
+    text-indent: 5px;
+}
+form button{
+    background-color: #fb3e44;
+    color:white;
+    padding:5px 10px 5px 10px;
+}
+.sesion-links a{
+    text-decoration:none;
+    color:blue;
+}
+.npm-logo{
+    width:60px;
+}
+.magnifying-glass{
+    width:40px;
+}
+.header-div-2{
+    height:60px;
+    display:flex;
+}
+/*el justify content me deja mucho espacio entre el h1 
+y el article, no se como arreglarlo. le mande un margin
+bottom al h1 para arreglarlo un toque*/
+#section-1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    height:600px;
+    background-color: rgba(232,217,217,.3);
+}
+#section-1 h1{
+    font-size: 60px;
+    margin-bottom: 3px;
+}
+#section-1 article{
+    width:420px;
+    font-size: 18px;
+    text-align:center;
+}
+#section-1 .see-plans{
+    background-color: #fb3b49;
+    text-decoration: none;
+    color:white;
+    padding:10px 30px 10px 30px;
+    margin-right: 50px;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+} 
+#section-1 .join-for-free{
+    text-decoration: none;
+    color:black;
+}
