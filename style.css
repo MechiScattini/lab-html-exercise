@@ -57,15 +57,22 @@ form button{
     height:60px;
     display:flex;
 }
-/*el justify content me deja mucho espacio entre el h1 
+/*el justify-content:center queda horrible
+y el space-evenly me deja mucho espacio entre el h1 
 y el article, no se como arreglarlo. le mande un margin
 bottom al h1 para arreglarlo un toque*/
-#section-1{
+.container{
     display:flex;
     flex-direction:column;
     align-items:center;
-    justify-content:space-around;
+    justify-content:space-evenly;
     height:600px;
+}
+article{
+    font-size: 18px;
+    text-align:center;
+}
+#section-1{
     background-color: rgba(232,217,217,.3);
 }
 #section-1 h1{
@@ -74,9 +81,8 @@ bottom al h1 para arreglarlo un toque*/
 }
 #section-1 article{
     width:420px;
-    font-size: 18px;
-    text-align:center;
 }
+
 #section-1 .see-plans{
     background-color: #fb3b49;
     text-decoration: none;
@@ -88,4 +94,41 @@ bottom al h1 para arreglarlo un toque*/
 #section-1 .join-for-free{
     text-decoration: none;
     color:black;
+}
+#section-2 h2{
+    font-size: 30px;
+    background-color: rgba(255,204,53,.4);
+    font-style: italic;
+    margin-bottom: 5px;
+}
+#section-2 img{
+    width:200px;
+}
+#section-2 article{
+    width:650px;
+}
+#section-3{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#section-3 h3{
+    color:#ed1c24;
+}
+#section-3 img{
+    width:50px;
+    height:50px;
+}
+#section-3 article{
+    width:370px;
+    text-align:left;
+}
+#section-3 a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    padding:10px 70px 10px 70px;
+    margin-top: 50px;
 }
